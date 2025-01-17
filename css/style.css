@@ -16,6 +16,9 @@ ul {
     text-decoration: underline;
     font-weight: bold;
 }
+body , html {
+    overflow-x: hidden;
+}
 
 
 /* Navbar Section  */
@@ -119,6 +122,36 @@ p {
 .events .ctn {
     margin-top: 30px;
 } 
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1 {
+    font-size: 7vmin;
+}
+.explore-content .line {
+    margin-bottom: 50px;
+}
+.explore-content p {
+    color: rgb(221, 221, 221);
+}
+.explore-content .ctn {
+    margin-top: 40px;
+}
 
 /* Mobile Device  */
 @media only screen and (max-width: 850px) {
