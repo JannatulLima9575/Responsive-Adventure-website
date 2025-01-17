@@ -33,5 +33,14 @@
             <a href="#" class="ctn">Learn More</a>
         </div>
      </header>
+
+     <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+     
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+     </script>
 </body>
 </html>
